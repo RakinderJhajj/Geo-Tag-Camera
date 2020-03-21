@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62503A952424EE4C005A85DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503A942424EE4C005A85DC /* AppDelegate.swift */; };
+		62503A972424EE4C005A85DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503A962424EE4C005A85DC /* SceneDelegate.swift */; };
+		62503A992424EE4C005A85DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503A982424EE4C005A85DC /* ViewController.swift */; };
+		62503A9C2424EE4C005A85DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62503A9A2424EE4C005A85DC /* Main.storyboard */; };
+		62503A9E2424EE4F005A85DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62503A9D2424EE4F005A85DC /* Assets.xcassets */; };
+		62503AA12424EE4F005A85DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62503A9F2424EE4F005A85DC /* LaunchScreen.storyboard */; };
+		62503AAC2424EE4F005A85DC /* Geo_Tag_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503AAB2424EE4F005A85DC /* Geo_Tag_CameraTests.swift */; };
+		62503AB72424EE4F005A85DC /* Geo_Tag_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503AB62424EE4F005A85DC /* Geo_Tag_CameraUITests.swift */; };
+		62503AC52424F0CB005A85DC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503AC42424F0CB005A85DC /* ImageViewController.swift */; };
+		62503AC72424F1DC005A85DC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503AC62424F1DC005A85DC /* Alert.swift */; };
+		62503AC92424F207005A85DC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503AC82424F207005A85DC /* Constant.swift */; };
+		62503ACD24250B29005A85DC /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503ACC24250B29005A85DC /* Singleton.swift */; };
+		62503ACF24250E8C005A85DC /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62503ACE24250E8B005A85DC /* ImageDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62503AA82424EE4F005A85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62503A892424EE4C005A85DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62503A902424EE4C005A85DC;
+			remoteInfo = "Geo Tag Camera";
+		};
+		62503AB32424EE4F005A85DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62503A892424EE4C005A85DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62503A902424EE4C005A85DC;
+			remoteInfo = "Geo Tag Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62503A912424EE4C005A85DC /* Geo Tag Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo Tag Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62503A942424EE4C005A85DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62503A962424EE4C005A85DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62503A982424EE4C005A85DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62503A9B2424EE4C005A85DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62503A9D2424EE4F005A85DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62503AA02424EE4F005A85DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62503AA22424EE4F005A85DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62503AA72424EE4F005A85DC /* Geo Tag CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo Tag CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62503AAB2424EE4F005A85DC /* Geo_Tag_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_Tag_CameraTests.swift; sourceTree = "<group>"; };
+		62503AAD2424EE4F005A85DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62503AB22424EE4F005A85DC /* Geo Tag CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo Tag CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62503AB62424EE4F005A85DC /* Geo_Tag_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_Tag_CameraUITests.swift; sourceTree = "<group>"; };
+		62503AB82424EE4F005A85DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62503AC42424F0CB005A85DC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		62503AC62424F1DC005A85DC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		62503AC82424F207005A85DC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		62503ACC24250B29005A85DC /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		62503ACE24250E8B005A85DC /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62503A8E2424EE4C005A85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62503AA42424EE4F005A85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62503AAF2424EE4F005A85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62503A882424EE4C005A85DC = {
+			isa = PBXGroup;
+			children = (
+				62503A932424EE4C005A85DC /* Geo Tag Camera */,
+				62503AAA2424EE4F005A85DC /* Geo Tag CameraTests */,
+				62503AB52424EE4F005A85DC /* Geo Tag CameraUITests */,
+				62503A922424EE4C005A85DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62503A922424EE4C005A85DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62503A912424EE4C005A85DC /* Geo Tag Camera.app */,
+				62503AA72424EE4F005A85DC /* Geo Tag CameraTests.xctest */,
+				62503AB22424EE4F005A85DC /* Geo Tag CameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62503A932424EE4C005A85DC /* Geo Tag Camera */ = {
+			isa = PBXGroup;
+			children = (
+				62571DD424261E6C009AA9E7 /* Controller */,
+				62571DD324261E53009AA9E7 /* Model */,
+				62503A942424EE4C005A85DC /* AppDelegate.swift */,
+				62503A962424EE4C005A85DC /* SceneDelegate.swift */,
+				62503A9A2424EE4C005A85DC /* Main.storyboard */,
+				62503A9D2424EE4F005A85DC /* Assets.xcassets */,
+				62503A9F2424EE4F005A85DC /* LaunchScreen.storyboard */,
+				62503AA22424EE4F005A85DC /* Info.plist */,
+			);
+			path = "Geo Tag Camera";
+			sourceTree = "<group>";
+		};
+		62503AAA2424EE4F005A85DC /* Geo Tag CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				62503AAB2424EE4F005A85DC /* Geo_Tag_CameraTests.swift */,
+				62503AAD2424EE4F005A85DC /* Info.plist */,
+			);
+			path = "Geo Tag CameraTests";
+			sourceTree = "<group>";
+		};
+		62503AB52424EE4F005A85DC /* Geo Tag CameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62503AB62424EE4F005A85DC /* Geo_Tag_CameraUITests.swift */,
+				62503AB82424EE4F005A85DC /* Info.plist */,
+			);
+			path = "Geo Tag CameraUITests";
+			sourceTree = "<group>";
+		};
+		62571DD324261E53009AA9E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62503AC62424F1DC005A85DC /* Alert.swift */,
+				62503AC82424F207005A85DC /* Constant.swift */,
+				62503ACC24250B29005A85DC /* Singleton.swift */,
+				62503ACE24250E8B005A85DC /* ImageDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62571DD424261E6C009AA9E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62503A982424EE4C005A85DC /* ViewController.swift */,
+				62503AC42424F0CB005A85DC /* ImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62503A902424EE4C005A85DC /* Geo Tag Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62503ABB2424EE4F005A85DC /* Build configuration list for PBXNativeTarget "Geo Tag Camera" */;
+			buildPhases = (
+				62503A8D2424EE4C005A85DC /* Sources */,
+				62503A8E2424EE4C005A85DC /* Frameworks */,
+				62503A8F2424EE4C005A85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geo Tag Camera";
+			productName = "Geo Tag Camera";
+			productReference = 62503A912424EE4C005A85DC /* Geo Tag Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62503AA62424EE4F005A85DC /* Geo Tag CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62503ABE2424EE4F005A85DC /* Build configuration list for PBXNativeTarget "Geo Tag CameraTests" */;
+			buildPhases = (
+				62503AA32424EE4F005A85DC /* Sources */,
+				62503AA42424EE4F005A85DC /* Frameworks */,
+				62503AA52424EE4F005A85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62503AA92424EE4F005A85DC /* PBXTargetDependency */,
+			);
+			name = "Geo Tag CameraTests";
+			productName = "Geo Tag CameraTests";
+			productReference = 62503AA72424EE4F005A85DC /* Geo Tag CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62503AB12424EE4F005A85DC /* Geo Tag CameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62503AC12424EE4F005A85DC /* Build configuration list for PBXNativeTarget "Geo Tag CameraUITests" */;
+			buildPhases = (
+				62503AAE2424EE4F005A85DC /* Sources */,
+				62503AAF2424EE4F005A85DC /* Frameworks */,
+				62503AB02424EE4F005A85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62503AB42424EE4F005A85DC /* PBXTargetDependency */,
+			);
+			name = "Geo Tag CameraUITests";
+			productName = "Geo Tag CameraUITests";
+			productReference = 62503AB22424EE4F005A85DC /* Geo Tag CameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62503A892424EE4C005A85DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Rakinder;
+				TargetAttributes = {
+					62503A902424EE4C005A85DC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					62503AA62424EE4F005A85DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 62503A902424EE4C005A85DC;
+					};
+					62503AB12424EE4F005A85DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 62503A902424EE4C005A85DC;
+					};
+				};
+			};
+			buildConfigurationList = 62503A8C2424EE4C005A85DC /* Build configuration list for PBXProject "Geo Tag Camera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62503A882424EE4C005A85DC;
+			productRefGroup = 62503A922424EE4C005A85DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62503A902424EE4C005A85DC /* Geo Tag Camera */,
+				62503AA62424EE4F005A85DC /* Geo Tag CameraTests */,
+				62503AB12424EE4F005A85DC /* Geo Tag CameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62503A8F2424EE4C005A85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62503AA12424EE4F005A85DC /* LaunchScreen.storyboard in Resources */,
+				62503A9E2424EE4F005A85DC /* Assets.xcassets in Resources */,
+				62503A9C2424EE4C005A85DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62503AA52424EE4F005A85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62503AB02424EE4F005A85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62503A8D2424EE4C005A85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62503A992424EE4C005A85DC /* ViewController.swift in Sources */,
+				62503ACD24250B29005A85DC /* Singleton.swift in Sources */,
+				62503ACF24250E8C005A85DC /* ImageDetail.swift in Sources */,
+				62503A952424EE4C005A85DC /* AppDelegate.swift in Sources */,
+				62503AC52424F0CB005A85DC /* ImageViewController.swift in Sources */,
+				62503AC72424F1DC005A85DC /* Alert.swift in Sources */,
+				62503A972424EE4C005A85DC /* SceneDelegate.swift in Sources */,
+				62503AC92424F207005A85DC /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62503AA32424EE4F005A85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62503AAC2424EE4F005A85DC /* Geo_Tag_CameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62503AAE2424EE4F005A85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62503AB72424EE4F005A85DC /* Geo_Tag_CameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62503AA92424EE4F005A85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62503A902424EE4C005A85DC /* Geo Tag Camera */;
+			targetProxy = 62503AA82424EE4F005A85DC /* PBXContainerItemProxy */;
+		};
+		62503AB42424EE4F005A85DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62503A902424EE4C005A85DC /* Geo Tag Camera */;
+			targetProxy = 62503AB32424EE4F005A85DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62503A9A2424EE4C005A85DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62503A9B2424EE4C005A85DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62503A9F2424EE4F005A85DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62503AA02424EE4F005A85DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62503AB92424EE4F005A85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62503ABA2424EE4F005A85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62503ABC2424EE4F005A85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6L69KW2YG;
+				INFOPLIST_FILE = "Geo Tag Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rakinder.Geo-Tag-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		62503ABD2424EE4F005A85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6L69KW2YG;
+				INFOPLIST_FILE = "Geo Tag Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rakinder.Geo-Tag-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		62503ABF2424EE4F005A85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Geo Tag CameraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rakinder.Geo-Tag-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geo Tag Camera.app/Geo Tag Camera";
+			};
+			name = Debug;
+		};
+		62503AC02424EE4F005A85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Geo Tag CameraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rakinder.Geo-Tag-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geo Tag Camera.app/Geo Tag Camera";
+			};
+			name = Release;
+		};
+		62503AC22424EE4F005A85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Geo Tag CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rakinder.Geo-Tag-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Geo Tag Camera";
+			};
+			name = Debug;
+		};
+		62503AC32424EE4F005A85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Geo Tag CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rakinder.Geo-Tag-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Geo Tag Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62503A8C2424EE4C005A85DC /* Build configuration list for PBXProject "Geo Tag Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62503AB92424EE4F005A85DC /* Debug */,
+				62503ABA2424EE4F005A85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62503ABB2424EE4F005A85DC /* Build configuration list for PBXNativeTarget "Geo Tag Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62503ABC2424EE4F005A85DC /* Debug */,
+				62503ABD2424EE4F005A85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62503ABE2424EE4F005A85DC /* Build configuration list for PBXNativeTarget "Geo Tag CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62503ABF2424EE4F005A85DC /* Debug */,
+				62503AC02424EE4F005A85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62503AC12424EE4F005A85DC /* Build configuration list for PBXNativeTarget "Geo Tag CameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62503AC22424EE4F005A85DC /* Debug */,
+				62503AC32424EE4F005A85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62503A892424EE4C005A85DC /* Project object */;
+}
